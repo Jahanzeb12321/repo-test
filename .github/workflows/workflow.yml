@@ -17,6 +17,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: jahanzebk98/demo
+        tags: v1.01, latest
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
